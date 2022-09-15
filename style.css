@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #191919;
+  padding: 20px 40px;
+}
+.header {
+  display: flex;
+
+  justify-content: space-between;
+}
+.header h2 {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  color: white;
+}
+.header .nav {
+  display: flex;
+  gap: 80px;
+  font-size: 1.7rem;
+}
+.header .nav li {
+  list-style-type: none;
+  text-transform: capitalize;
+}
+
+.header .nav li a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+}
+.header .nav li a:hover {
+  color: #fe2f5c;
+  transition: all ease 2s;
+}
+h1 {
+  color: white;
+  white-space: nowrap;
+  text-transform: capitalize;
+}
+.text {
+  display: flex;
+}
+.text span {
+  text-transform: capitalize;
+  font-size: 2em;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-left: 10px;
+  color: #fe2f5c;
+  animation: typing 2s steps(10) 1s infinite alternate;
+}
+
+/* animation: typing 2s steps(10) 1s infinite alternate; */
+@keyframes typing {
+  from {
+    width: 0;
+    /* background-color: #e61bcb; */
+  }
+  to {
+    width: 100%;
+  }
+}
+/* main style start */
+.main {
+  display: flex;
+  /* border: 2px solid white; */
+  height: 100vh;
+
+  align-items: center;
+  justify-content: space-around;
+}
+/* .main .main-img{
+   
+} */
+.main .main-img img {
+  width: 250px;
+  position: relative;
+  /* border: 2px solid white; */
+  border-radius: 20%;
+  /* top: 100px;
+    right: 250px; */
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .nav {
+    visibility: hidden;
+    background-color: #fe2f5c;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    padding: 20px;
+    margin: 0;
+  }
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    /* position: relative;
+    left: 50px;
+    top: 50px; */
+  }
+  .header {
+    display: block;
+    text-align: center;
+  }
+  .header h2 {
+    font-size: 2.5rem;
+  }
+  .text {
+    padding-bottom: 50px;
+  }
+}
+.skill {
+  color: white;
+}
+.skill h3 {
+  text-align: center;
+  font-size: 2rem;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.skill p {
+  width: 300px;
+  /* line-height: 35px; */
+  word-break: normal;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+.skill {
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.skill img {
+  width: 300px;
+}
