@@ -52,7 +52,7 @@ h1 {
   white-space: nowrap;
   margin-left: 10px;
   color: #fe2f5c;
-  animation: typing 2s steps(10) 1s infinite alternate;
+  animation: typing 4s steps(15) 1s infinite alternate;
 }
 
 /* animation: typing 2s steps(10) 1s infinite alternate; */
