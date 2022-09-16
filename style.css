@@ -96,6 +96,7 @@ h1 {
     box-sizing: border-box;
   }
   body {
+width:320px;
     padding: 20px;
     margin: 0;
 overflow: hidden;
