@@ -86,7 +86,7 @@ h1 {
     right: 250px; */
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .nav li {
+  .nav li a{
     visibility: hidden;
     background-color: #fe2f5c;
   }
